@@ -32,10 +32,10 @@ var data = {
 var jsondata = JSON.stringify(data);
 
 var options = {
-  url: "https://us20.api.mailchimp.com/3.0/lists/ebd84f45d7",
+  url: "https://us20.api.mailchimp.com/3.0/lists/<list id>",
   method: "POST",
   headers:{
-    "Authorization": "dheerajjalagam <api>"
+    "Authorization": "username <api>"
   },
   body: jsondata
   };
