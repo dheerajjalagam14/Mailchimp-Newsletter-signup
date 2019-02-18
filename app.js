@@ -35,7 +35,7 @@ var options = {
   url: "https://us20.api.mailchimp.com/3.0/lists/ebd84f45d7",
   method: "POST",
   headers:{
-    "Authorization": "dheerajjalagam dc02f1d1a39ad7a5b1f343d305e9dacc-us20"
+    "Authorization": "dheerajjalagam <api>"
   },
   body: jsondata
   };
