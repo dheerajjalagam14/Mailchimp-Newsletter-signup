@@ -35,7 +35,7 @@ var options = {
   url: "https://us20.api.mailchimp.com/3.0/lists/<list id>",
   method: "POST",
   headers:{
-    "Authorization": "username <api>"
+    "Authorization": "username <apikey>"
   },
   body: jsondata
   };
